@@ -10,5 +10,10 @@ public class Main {
         myArrayList.add(4);
         myArrayList.remove(8);
         System.out.println(Arrays.toString(myArrayList.toArray()));
+        int[] ints = new int[0];
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("333");
+        arrayList.add("444");
+        System.out.println(Arrays.toString(arrayList.toArray()));
     }
 }

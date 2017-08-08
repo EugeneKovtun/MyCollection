@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * Created by eugene on 08.08.17.
  */
-public class MyArrayList<E> extends ArrayList<E> {
+public class MyArrayList<E> extends java.util.ArrayList<E> {
     @Override
     public E remove(int index) {
         return null;
